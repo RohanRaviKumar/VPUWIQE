@@ -94,7 +94,7 @@
         {% endwith %}
 
         <form method="POST" enctype="multipart/form-data">
-            <label for="file">Select a 360° Image (2048x1024 recommended):</label>
+            <label for="file">Upload an image (2048x1024 recommended):</label>
             <input type="file" name="file" id="file" accept="image/png, image/jpeg" required>
             <input type="submit" value="Predict Quality Score">
         </form>
@@ -108,7 +108,6 @@
                 </p>
                 <p>The predicted Mean Opinion Score (MOS) is:</p>
                 <strong style="font-size: 2.5em; color: #28a745;">{{ predicted_score }}</strong>
-                <p>(Scale typically 1 to 5, where 5 is best quality)</p>
             </div>
         {% endif %}
     </div>

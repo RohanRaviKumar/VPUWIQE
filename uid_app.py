@@ -21,7 +21,7 @@ app.config['UPLOAD_FOLDER'] = 'uploads/'
 app.config['ALLOWED_EXTENSIONS'] = {'png', 'jpg', 'jpeg'}
 
 # --- Model Configuration (MUST MATCH TRAINING) ---
-SAVE_DIR = "models_and_features"
+SAVE_DIR = "UID_Files"
 FEATURE_SET_NAME = "ResNet50+VGG16"
 # !!! IMPORTANT: REPLACE XX with the actual iteration number from your saved files
 BEST_ITERATION = 14 
